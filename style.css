@@ -4,6 +4,9 @@
   box-sizing: border-box;
   outline: 0;
 }
+body {
+  overflow-x: hidden;
+}
 
 .bg-home {
   background-image: url('./assets/teste 4.jpg'), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
