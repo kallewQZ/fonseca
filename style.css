@@ -591,6 +591,9 @@ a {
 
 /* Em telas menores que 500px */
 @media (max-width: 500px) {
+body {
+  overflow-x: hidden;
+}
 
   .hero h1 {
     font-size: 24px;
@@ -610,7 +613,7 @@ a {
     flex: 1 1 45%;
     /* dois cards por linha */
     max-width: 45%;
-    width: 500px;
+    width: 450px;
   }
 
   .haircut-info {
